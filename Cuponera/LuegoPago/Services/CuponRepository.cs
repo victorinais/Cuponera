@@ -1,0 +1,48 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
+using LuegoPago.Data;
+using LuegoPago.Models;
+using LuegoPago.Services;
+
+namespace LuegoPago.Services
+{
+    public class CuponRepository : ICuponRepository
+    {
+        private readonly CuponDbContext _context;
+        public CuponRepository(CuponDbContext context){
+            context = _context;
+        }
+        public void Add(Cupon cupon)
+        {
+            _context.Cupones.Add(cupon);
+            _context.SaveChanges();
+
+        }
+
+        public IEnumerable<Cupon> GetAll()
+        {
+            return _context.Cupones.ToList();
+        }
+
+        public Cupon GetById(int Id)
+        {
+            return _context.Cupones.Find(Id)!;
+        }
+
+        public void Remove(int Id)
+        {
+            var cupon = _context.Cupones.Find(Id);
+            _context.Cupones.Remove(cupon);
+            _context.SaveChanges();
+        }
+
+        public void Update(Cupon cupon)
+        {
+            _context.Cupones.Update(cupon);
+            _context.SaveChanges();
+        }
+    }
+
+}
