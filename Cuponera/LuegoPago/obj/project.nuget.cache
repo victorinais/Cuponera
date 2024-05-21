@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "PF5+6LBOMOccRC9NmolaTUbw2zDcvvzhYBxL4CXAZfD0vsDuPVdzrF8T8nMLSQw/N/MhOGXBg7hDUvDjgtW1Fw==",
+  "dgSpecHash": "01MKy0eTCfbXXNadxmBvDrJBLv+URbbpWr7tkkIs/HJ8AFoJ6Ws5w/S9cFTTuTnRGmLyrLBodYTHZBvfavKQRw==",
   "success": true,
-  "projectFilePath": "/home/riwip5-020/Desktop/Cuponera/LuegoPago/LuegoPago.csproj",
+  "projectFilePath": "/home/riwip5-020/Documents/VM3/VM/folder/Cuponera/LuegoPago/LuegoPago.csproj",
   "expectedPackageFiles": [
     "/home/riwip5-020/.nuget/packages/microsoft.aspnetcore.openapi/8.0.5/microsoft.aspnetcore.openapi.8.0.5.nupkg.sha512",
     "/home/riwip5-020/.nuget/packages/microsoft.entityframeworkcore/8.0.5/microsoft.entityframeworkcore.8.0.5.nupkg.sha512",

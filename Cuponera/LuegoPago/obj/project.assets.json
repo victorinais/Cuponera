@@ -1173,11 +1173,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/riwip5-020/Desktop/Cuponera/LuegoPago/LuegoPago.csproj",
+      "projectUniqueName": "/home/riwip5-020/Documents/VM3/VM/folder/Cuponera/LuegoPago/LuegoPago.csproj",
       "projectName": "LuegoPago",
-      "projectPath": "/home/riwip5-020/Desktop/Cuponera/LuegoPago/LuegoPago.csproj",
+      "projectPath": "/home/riwip5-020/Documents/VM3/VM/folder/Cuponera/LuegoPago/LuegoPago.csproj",
       "packagesPath": "/home/riwip5-020/.nuget/packages/",
-      "outputPath": "/home/riwip5-020/Desktop/Cuponera/LuegoPago/obj/",
+      "outputPath": "/home/riwip5-020/Documents/VM3/VM/folder/Cuponera/LuegoPago/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/riwip5-020/.nuget/NuGet/NuGet.Config"

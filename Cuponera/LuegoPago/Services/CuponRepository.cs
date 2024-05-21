@@ -4,7 +4,6 @@ using System.Linq;
 using System.Threading.Tasks;
 using LuegoPago.Data;
 using LuegoPago.Models;
-using LuegoPago.Services;
 
 namespace LuegoPago.Services
 {
@@ -12,8 +11,10 @@ namespace LuegoPago.Services
     {
         private readonly CuponDbContext _context;
         public CuponRepository(CuponDbContext context){
-            context = _context;
+            _context = context;
+
         }
+        
         public void Add(Cupon cupon)
         {
             _context.Cupones.Add(cupon);
@@ -28,13 +29,13 @@ namespace LuegoPago.Services
 
         public Cupon GetById(int Id)
         {
-            return _context.Cupones.Find(Id)!;
+            return _context.Cupones.Find(Id);
         }
 
         public void Remove(int Id)
         {
             var cupon = _context.Cupones.Find(Id);
-            _context.Cupones.Remove(cupon);
+            _context.Cupones.Remove(cupon!);
             _context.SaveChanges();
         }
 

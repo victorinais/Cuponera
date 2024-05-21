@@ -9,9 +9,9 @@ namespace LuegoPago.Models
         public string? Descripcion { get; set; }
         public DateOnly FechaInicio { get; set; }
         public DateOnly FechaFin { get; set; }
-        public Double ValorDescuneto { get; set; }
+        public string? ValorDescuento { get; set; }
         public int Usabilidad { get; set; }
-        public Boolean Estado { get; set; }
+        public string? Estado { get; set; }
 
     }
 }
